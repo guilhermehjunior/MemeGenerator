@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Projeto Meme Generator</title>
+</head>
+<body>
+  <h1 id="title">Meme Generator!</h1>
+  <p class="p-maior">Escolha uma imagem e adicione um texto para seu meme!</p>
+  <div id="texto">
+    <p>Texto: </p>
+    <input type="text" maxlength="60" id="text-input">
+  </div>
+  <div id="imagem">
+    <p>Foto: </p>
+    <label for="meme-insert" id="meme-insert-label">Escolha a imagem</label>
+    <input type="file" id="meme-insert" accept="image/*">
+  </div>
+  <div id="meme-image-container">
+    <img src="" alt="" id="meme-image">
+    <p id="meme-text"></p>
+  </div>
+  <div id="bordas">
+    <p class="p-maior">Selecione uma borda diferente pro meme!</p>
+    <button id="fire" class="botao-borda">Borda de Fogo!</button>
+    <button id="water" class="botao-borda">Borda de Gelo!</button>
+    <button id="earth" class="botao-borda">Borda de Terra!</button>
+  </div>
+  <div id="memes-prontos">
+    <p class="p-maior">Ou se preferir, temos um desses maravilhosos memes pre-selecionados!</p>
+    <img src="imgs/meme1.png" alt="meme1" class="meme-pronto" id="meme-1">
+    <img src="imgs/meme2.png" alt="meme2" class="meme-pronto" id="meme-2">
+    <img src="imgs/meme3.png" alt="meme3" class="meme-pronto" id="meme-3">
+    <img src="imgs/meme4.png" alt="meme4" class="meme-pronto" id="meme-4">   
+  </div>
+
+
+
+ <script src="script.js"></script> 
+</body>
+</html>
